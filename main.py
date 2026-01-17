@@ -4,6 +4,7 @@ from dataclasses import dataclass, asdict
 from datetime import datetime
 from typing import List, Dict, Any, Optional
 
+print("Добавление новой ветки")
 
 @dataclass(frozen=True)
 class Operation:
